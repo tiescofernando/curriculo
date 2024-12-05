@@ -300,3 +300,89 @@ span{
   margin-top: 6em;
 }
 
+
+
+@media (max-width: 600px){
+
+.body{
+  font-size: 14px;
+  width:90%;
+}
+
+.container{
+  height: 950;
+}
+
+.cabecalho h1{
+  font-size: 60px;
+  font-family: var(--font-04);
+  margin-top:50px;
+  word-spacing:20px;
+}
+
+.cabecalho h2{
+  font-size:25;
+  padding:15px; 
+}
+
+.information{
+  display: grid;
+  margin-top: 15px;
+  margin-left:15px;
+  font-size:25;
+}
+
+.information .icons{
+  margin: -10px -45px;
+}
+
+.text{
+  display: grid;
+  margin: -90px 15px 0 0;
+}
+
+.hability{
+}
+
+#hab{
+  font-size:30px;
+  margin: 0 155px 18px;
+
+}
+
+.cursos{
+  display:grid;
+  width:280px;
+  align-items: center;
+  justify-content: center;
+  margin:0 120px -150px 150px;
+  height: auto;
+  width: 100px;
+ }
+
+.crs1{
+  margin: 10px -10px;
+}
+
+.crs2{
+  margin:-30px;
+}
+
+.avan{
+  font-size: 25px
+
+}
+
+.dados{
+  font-size:15px;
+  width: 290px;
+  margin: 82px 0 0 105px 
+}
+
+.dados h1{
+  margin: 0 14px;
+}
+
+
+}
+
