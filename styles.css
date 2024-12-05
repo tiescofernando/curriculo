@@ -302,87 +302,104 @@ span{
 
 
 
-@media (max-width: 600px){
+/* Aqui começa a estilização para mobile */
+@media (max-width: 600px) {
+      
+    .body {
+        font-size: 14px;
+        max-width: 100%;
+    }
 
-.body{
-  font-size: 14px;
-  width:90%;
-}
+    .container {
+        height: auto; /* Adicionada a unidade 'px' */
+    }
 
-.container{
-  height: 950;
-}
+    .container #eu img {
+        width: 150px;
+        height: auto;
+        border: 0;
+    }
 
-.cabecalho h1{
-  font-size: 60px;
-  font-family: var(--font-04);
-  margin-top:50px;
-  word-spacing:20px;
-}
+    .cabecalho h1 {
+        font-size: 30px;
+        font-family: var(--font-04);
+        margin: -11px;
+    }
 
-.cabecalho h2{
-  font-size:25;
-  padding:15px; 
-}
+    .cabecalho h2 {
+        font-size: 15px; 
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
 
-.information{
-  display: grid;
-  margin-top: 15px;
-  margin-left:15px;
-  font-size:25;
-}
+    .information {
+        display: grid;
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 25px; /* Adicionada a unidade 'px' */
+    }
 
-.information .icons{
-  margin: -10px -45px;
-}
+    .information .icons {
+        margin: -10px -45px;
+    }
 
-.text{
-  display: grid;
-  margin: -90px 15px 0 0;
-}
+    .text {
+        display: grid;
+        margin: -90px 15px 0 0;
+        font-size: 12px; /* Adicionada a unidade 'px' */
+    }
 
-.hability{
-}
+    .nave ul li{
+      margin-top: 65px;
+    }
 
-#hab{
-  font-size:30px;
-  margin: 0 155px 18px;
+    #hab {
+        font-size: 30px;
+        margin: -100px 155px 18px; /* Adicionada a unidade 'px' */
+    }
 
-}
+    .cursos {
+        display: grid;
+        width: 280px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 120px -150px 150px;
+        height: auto;
+        width: 100px; /* Esta linha pode ser removida, pois a largura já está definida acima */
+    }
 
-.cursos{
-  display:grid;
-  width:280px;
-  align-items: center;
-  justify-content: center;
-  margin:0 120px -150px 150px;
-  height: auto;
-  width: 100px;
- }
+    .crs1 {
+        margin: 10px -10px;
+    }
 
-.crs1{
-  margin: 10px -10px;
-}
+    .crs2 {
+        margin: -30px;
+    }
 
-.crs2{
-  margin:-30px;
-}
+    .avan {
+        font-size: 25px; /* Adicionada a unidade 'px' */
+    }
 
-.avan{
-  font-size: 25px
+    .dados {
+        font-size: 15px; /* Adicionada a unidade 'px' */
+        width: 290px;
+        margin: 8px 0 10px 125px; /* Adicionada a unidade 'px' */
+    }
 
-}
+    .dados h1 {
+        margin: 14px;
+    }
 
-.dados{
-  font-size:15px;
-  width: 290px;
-  margin: 82px 0 0 105px 
-}
-
-.dados h1{
-  margin: 0 14px;
-}
-
-
+    .my-exper{
+      display:grid;
+      text-align: justify;
+      margin: -55
+     }
+    
+    .works p{
+      font-size:14px;
+      width:172
+    }
+    
 }
 
