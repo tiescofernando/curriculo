@@ -406,5 +406,13 @@ span{
     .works .funcao{
       font-size: 15px
     }
+
+    .hobbie{
+      display: block;
+    }
+
+    .hobbie p{
+     margin:auto 0 20px 
+    }
     
 }
