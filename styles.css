@@ -301,7 +301,6 @@ span{
 }
 
 
-
 /* Aqui começa a estilização para mobile */
 @media (max-width: 600px) {
       
@@ -356,6 +355,7 @@ span{
     #hab {
         font-size: 30px;
         margin: -100px 155px 18px; /* Adicionada a unidade 'px' */
+        text-shadow: 1px 2px 3px black;
     }
 
     .cursos {
@@ -369,12 +369,9 @@ span{
     }
 
     .crs1 {
-        margin: 10px -10px;
+        margin: 10px 10px;
     }
 
-    .crs2 {
-        margin: -30px;
-    }
 
     .avan {
         font-size: 25px; /* Adicionada a unidade 'px' */
@@ -383,11 +380,16 @@ span{
     .dados {
         font-size: 15px; /* Adicionada a unidade 'px' */
         width: 290px;
-        margin: 8px 0 10px 125px; /* Adicionada a unidade 'px' */
+        margin: 68px 0 10px 125px; /* Adicionada a unidade 'px' */
     }
 
     .dados h1 {
-        margin: 14px;
+        margin: 4px;
+    }
+    
+    .dados{
+      width: 250px;
+      height:130px;
     }
 
     .my-exper{
@@ -398,8 +400,11 @@ span{
     
     .works p{
       font-size:14px;
-      width:172
+      width:172px;
+    }
+
+    .works .funcao{
+      font-size: 15px
     }
     
 }
-
