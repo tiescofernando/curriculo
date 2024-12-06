@@ -31,7 +31,7 @@
 
 body{
     width: 95%;
-    height: 100vh;
+    height: 55em;
     background-image: url('https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center;
@@ -82,7 +82,7 @@ body{
 
 #eu img{
   width: 250;
-  height: 250;border: 15px solid white;
+  height: 250;border: 10px solid white;
   background-color: white;
   border-radius: 50%;
   margin-bottom: -150px;
@@ -101,7 +101,7 @@ body{
 }
 
 .information h1{
-  margin-right: 490px;
+  margin-right: 430px;
 }
 
 .who .icons{
