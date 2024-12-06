@@ -395,7 +395,7 @@ span{
     .my-exper{
       display:grid;
       text-align: justify;
-      margin: -55
+      margin: -55;
      }
     
     .works p{
@@ -404,15 +404,17 @@ span{
     }
 
     .works .funcao{
-      font-size: 15px
+      font-size: 15px;
     }
 
     .hobbie{
-      display: block;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
     }
 
     .hobbie p{
-     margin:auto 0 20px 
+     margin:auto 0 20px;
+     font-size:18; 
     }
     
 }
